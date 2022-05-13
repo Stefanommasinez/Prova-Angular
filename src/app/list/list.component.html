@@ -1,0 +1,68 @@
+<div class="container">
+  <div>
+      <h1 class="display-1">Lista delle attività</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="mb-3">
+        <p>Tipo</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="mb-3">
+        <p>Partecipanti</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <p>Prezzo</p>
+    </div>
+  </div>
+  <ul class="list-group mb-3">
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-3">
+            <p>Tipo</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <p>Partecipanti</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p>Prezzo</p>
+        </div>
+        <div class="col-md-1">
+          <button (click)="goToDetails()" type="button" class="btn btn-primary btn-lg">Dettagli</button>
+        </div>
+      </div>
+    </li>
+  </ul>  <ul class="list-group mb-3">
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="mb-3">
+            <p>Tipo</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <p>Partecipanti</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p>Prezzo</p>
+        </div>
+        <div class="col-md-1">
+          <button (click)="goToDetails()" type="button" class="btn btn-primary btn-lg">Dettagli</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="row">
+    <div class="col-lg-3">
+      <button (click)="goToRequest()" type="button" class="btn btn-secondary btn-lg">Richiedi un attività</button>
+    </div>
+  </div>
+</div>
